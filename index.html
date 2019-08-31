@@ -147,6 +147,90 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-laravel_baota" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/08/31/laravel_baota/">填坑，宝塔、laravel、wordpress部署云端</a>
+    </h1>
+  
+
+        
+        <a href="/2019/08/31/laravel_baota/" class="archive-article-date">
+  	<time datetime="2019-08-31T00:55:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-31</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>感谢游神的指点，让我可以快一点下班，开心~</p>
+<p>##注意事项</p>
+<p>1.大小写问题。本地laragon服务路径大小写不敏感，一到云端Linux，开始斤斤计较了，折腾啊。</p>
+<p>2.wordpress对应的数据库端口号、数据库名（大小写）、账号密码、字符集这些。</p>
+<p>3.宝塔面板LNMP，伪静态文件生成laravel 5的；入口目录是/public。</p>
+<p>4.laravel路由没有生效，主要问题在于：PHP版本7以上、storage目录权限777、key问题解除putenv()函数限制。</p>
+<p>key的命令需要在项目的根目录下，php artisan key:generate</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">云端部署</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">laravel</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/08/31/laravel_baota/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-iot" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -409,6 +493,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">心路</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">云端部署</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">laravel</a>
               </li>
             
             <div class="clearfix"></div>
