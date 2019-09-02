@@ -15,7 +15,7 @@ tags:
 1.大小写问题。本地laragon服务路径大小写不敏感，一到云端Linux，开始斤斤计较了，折腾啊。
 
 2.wordpress对应的数据库端口号、数据库名（大小写）、账号密码、字符集这些。
-
+<!-- more -->
 3.宝塔面板LNMP，伪静态文件生成laravel 5的；入口目录是/public。
 
 4.laravel路由没有生效，主要问题在于：PHP版本7以上、storage目录权限777、key问题解除putenv()函数限制。
