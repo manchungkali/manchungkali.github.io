@@ -127,3 +127,9 @@ jsonContent:
     categories: false
     tags: true
     reward: true
+
+    
+# Security
+## 文章加密 hexo-blog-encrypt
+encrypt:
+    enable: true
