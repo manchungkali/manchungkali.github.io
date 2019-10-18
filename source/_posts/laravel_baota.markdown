@@ -21,3 +21,16 @@ tags:
 4.laravel路由没有生效，主要问题在于：PHP版本7以上、storage目录权限777、key问题解除putenv()函数限制。
 
 key的命令需要在项目的根目录下，php artisan key:generate
+
+5.网页404的问题出在伪静态或者是laravel框架的缓存
+
+清除缓存的命令：
+
+php artisan config:cache 清除配置
+php artisan route:cache 清除路由
+php artisan clear-compiled 清除缓存
+php artisan optimize 优化类的加载
+
+路由缓存清除：
+php artisan route:cache
+php artisan route:clear
