@@ -14,11 +14,11 @@ tags:
 <!-- more -->
 ## 一、安装Git、设置邮箱 username ssh连接GitHub
 M1本身已装好Git可以直接开始
-～～～
+```
 git config --global user.name "yourgithubname"
 git config --global user.email "yourgithubemail"
 ssh-keygen -t rsa -C "youremail@example.com"
-～～～
+```
 到GitHub上 settings--ssh keys--new keys 添加私钥
 
 #生成后填到github和coding上（有coding平台的话）
