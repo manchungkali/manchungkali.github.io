@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "也说人的价值观"
-date: 2019-9-1 23：09
+date: 2019-9-1 23:09
 comments: true
 reward: true
 tags: 
