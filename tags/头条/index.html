@@ -6,20 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="//kongchung.club">
-  <title>新MacBookPro 避坑git hexo主题博客 | 康松的认知庭院</title>
+  <title>Tag: 头条 | 康松的认知庭院</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="换新电脑笔记本MacBookPro M1 16G内存 512固态昨天今天来重新部署发布环境，特此记录一下遇到的坑">
-<meta name="keywords" content="M1_MBP,Hexo,Git">
-<meta property="og:type" content="article">
-<meta property="og:title" content="新MacBookPro 避坑git hexo主题博客">
-<meta property="og:url" content="//kongchung.club/2021/06/27/M1_hexo/index.html">
+  <meta name="description" content="广大19届，任职于广州机器人小厂。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="康松的认知庭院">
+<meta property="og:url" content="//kongchung.club/tags/头条/index.html">
 <meta property="og:site_name" content="康松的认知庭院">
-<meta property="og:description" content="换新电脑笔记本MacBookPro M1 16G内存 512固态昨天今天来重新部署发布环境，特此记录一下遇到的坑">
+<meta property="og:description" content="广大19届，任职于广州机器人小厂。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2021-06-28T00:20:50.188Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="新MacBookPro 避坑git hexo主题博客">
-<meta name="twitter:description" content="换新电脑笔记本MacBookPro M1 16G内存 512固态昨天今天来重新部署发布环境，特此记录一下遇到的坑">
+<meta name="twitter:title" content="康松的认知庭院">
+<meta name="twitter:description" content="广大19届，任职于广州机器人小厂。">
   
   
     <link rel="icon" href="/assets/img/favicon.ico">
@@ -147,233 +145,64 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-M1_hexo" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      新MacBookPro 避坑git hexo主题博客
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2021" class="archive-year">2021</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2021/06/29/updatedDaily/" class="archive-article-date">
+  	<time datetime="2021-06-29T01:35:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-29</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2021/06/29/updatedDaily/">加油，日更</a>
     </h1>
   
 
-        
-        <a href="/2021/06/27/M1_hexo/" class="archive-article-date">
-  	<time datetime="2021-06-27T03:16:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-27</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>换新电脑笔记本MacBookPro M1 16G内存 512固态<br>昨天今天来重新部署发布环境，特此记录一下遇到的坑</p>
-<a id="more"></a>
-<h2 id="一、安装Git、设置邮箱-username-ssh连接GitHub"><a href="#一、安装Git、设置邮箱-username-ssh连接GitHub" class="headerlink" title="一、安装Git、设置邮箱 username ssh连接GitHub"></a>一、安装Git、设置邮箱 username ssh连接GitHub</h2><h3 id="M1本身已装好Git可以直接开始"><a href="#M1本身已装好Git可以直接开始" class="headerlink" title="M1本身已装好Git可以直接开始"></a>M1本身已装好Git可以直接开始</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourgithubname"</span></span><br><span class="line">git config --global user.email <span class="string">"yourgithubemail"</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="到GitHub上-settings–ssh-keys–new-keys-添加私钥"><a href="#到GitHub上-settings–ssh-keys–new-keys-添加私钥" class="headerlink" title="到GitHub上 settings–ssh keys–new keys 添加私钥"></a>到GitHub上 settings–ssh keys–new keys 添加私钥</h3><h3 id="生成后填到github和coding上（有coding平台的话）"><a href="#生成后填到github和coding上（有coding平台的话）" class="headerlink" title="生成后填到github和coding上（有coding平台的话）"></a>生成后填到github和coding上（有coding平台的话）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line"><span class="comment">#(有coding平台的话)</span></span><br><span class="line">ssh -T git@git.coding.net</span><br></pre></td></tr></table></figure>
-
-<h2 id="二、M1安装nodejs"><a href="#二、M1安装nodejs" class="headerlink" title="二、M1安装nodejs"></a>二、M1安装nodejs</h2><h3 id="修改hosts-才可以安装nvm"><a href="#修改hosts-才可以安装nvm" class="headerlink" title="修改hosts 才可以安装nvm"></a>修改hosts 才可以安装nvm</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/hosts</span><br><span class="line"><span class="comment">#按i，添加以下</span></span><br><span class="line">199.232.68.133 raw.githubusercontent.com</span><br><span class="line"><span class="comment">#wq保存退出</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="兼容安装nvm"><a href="#兼容安装nvm" class="headerlink" title="兼容安装nvm"></a>兼容安装nvm</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">arch -x86_64 zsh</span><br><span class="line"><span class="comment">#然后回车</span></span><br><span class="line"><span class="comment">#终端进入Rosetta 2模式</span></span><br><span class="line"><span class="comment">#安装nvm</span></span><br><span class="line">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash</span><br><span class="line"><span class="comment">#使用nvm -v是出错的，提示找不到nvm</span></span><br><span class="line"><span class="comment">#操作：在.nvm中新建一个.bash_profile的文件，将下面这两句话写入文档</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#tips: .nvm 和 .bash_profile 是隐藏文件，在终端显示需要输入ls -a。</span></span><br><span class="line"><span class="comment">#然后</span></span><br><span class="line"><span class="built_in">cd</span> .nvm</span><br><span class="line">vim .bash_profile</span><br><span class="line"></span><br><span class="line"><span class="built_in">export</span> NVM_DIR=<span class="string">"<span class="variable">$HOME</span>/.nvm"</span></span><br><span class="line">[ -s <span class="string">"<span class="variable">$NVM_DIR</span>/nvm.sh"</span> ] &amp;&amp; \. <span class="string">"<span class="variable">$NVM_DIR</span>/nvm.sh"</span> <span class="comment"># This loads nvm</span></span><br><span class="line">[ -s <span class="string">"<span class="variable">$NVM_DIR</span>/bash_completion"</span> ] &amp;&amp; \. <span class="string">"<span class="variable">$NVM_DIR</span>/bash_completion"</span>  <span class="comment"># This loads nvm bash_completion</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> .bash_profile启用文件</span><br><span class="line"></span><br><span class="line">nvm install 13</span><br><span class="line"></span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-<h2 id="克隆博客hexo文件"><a href="#克隆博客hexo文件" class="headerlink" title="克隆博客hexo文件"></a>克隆博客hexo文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> @git</span><br><span class="line"><span class="comment">#进入目录</span></span><br><span class="line">npm install hexo</span><br><span class="line">npm install -g hexo-cli</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-
-<h2 id="每次写文章"><a href="#每次写文章" class="headerlink" title="每次写文章"></a>每次写文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git pull</span><br><span class="line">git add .</span><br><span class="line">git commit -m<span class="string">""</span></span><br><span class="line">git push origin hexo</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-
-<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><h3 id="Hexo错误：spawn-failed"><a href="#Hexo错误：spawn-failed" class="headerlink" title="Hexo错误：spawn failed"></a>Hexo错误：spawn failed</h3><p>排查git的ssh连接<br><a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>: Permission denied (publickey).</p>
-<h3 id="hexo-TypeError-ERR-INVALID-ARG-TYPE"><a href="#hexo-TypeError-ERR-INVALID-ARG-TYPE" class="headerlink" title="hexo | TypeError [ERR_INVALID_ARG_TYPE]"></a>hexo | TypeError [ERR_INVALID_ARG_TYPE]</h3><p>问题原因node版本过高<br>安装node13版本就冇问题</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install 13</span><br></pre></td></tr></table></figure>
-
-
-      
-
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>多谢你请我饮茶<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/assets/img/alipay.jpg">
-                      <span class="reward-type">支付宝</span>
-                    </div>
-                    
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/assets/img/weixinzhifu.jpg">
-                      <span class="reward-type">微信</span>
-                    </div>
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">M1_MBP</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">头条</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Git</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">写作</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+          
 
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://manchungkali.github.io/2021/06/27/M1_hexo/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2021/06/28/deadline/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          期限是第一生产力
-        
-      </div>
-    </a>
   
   
-    <a href="/2021/06/25/comeback/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">回归精神家园</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-
-  
-  <div id="gitalk-container" style="padding: 0px 30px 0px 30px;"></div> 
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script type="text/javascript">
-
-if(true){
-  var gitalk = new Gitalk({
-    clientID: '5d25deebbabfeba1e71b',
-    clientSecret: '332f6b9e5d6bbcae04a788e9b3fa3bb38e376d8b',
-    repo: 'manchungkali.github.io',
-    owner: 'manchungkali',
-    admin: ['manchungkali'],
-    id: 'Sun Jun 27 2021 11:16:00 GMT+0800',
-    distractionFreeMode: 'true'
-})
-gitalk.render('gitalk-container') 
-}
-</script>
-  
-  
+    
 
 
           </div>
@@ -396,9 +225,9 @@ gitalk.render('gitalk-container')
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
-		isTag: false,
+		isTag: true,
 		isCategory: false,
 		open_in_new: true,
 		toc_hide_index: true,
